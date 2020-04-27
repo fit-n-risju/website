@@ -2,6 +2,29 @@ body {
     font-family: 'Baloo Tamma 2', cursive;
 }
 
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+button, .button {
+  background-color: #F96F5D;
+  border: 1px solid #F96F5D;
+  border-radius: 3px;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 11px 16px 8px 16px;
+}
+
 .content {
     padding: 0 50px;
     max-width: 1000px;
@@ -15,7 +38,12 @@ body {
     background-color: #F96F5D;
     padding: 20px 10px;
   }
-  
+
+.header-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
   .header a {
     float: left;
     color: white;
@@ -80,3 +108,103 @@ body {
     color: #22223B;
     width: 45%;
   }
+
+  .section-head {
+    padding: 14px 20px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding: 20px 0;
+  }
+  
+  .section-head a {
+    padding: 14px 20px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding: 20px 0;
+  }
+  
+  .section-head h2 {
+    padding: 30px 0 0 0;
+  }
+
+  .detail-head h2 {
+    padding: 20px 0;
+  }
+  
+  .detail-column {
+    float: left;
+    width: 32%;
+  }
+  
+  .detail-column a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  .detail-column + .detail-column {
+    margin-left: 2%;
+  }
+  
+  .detail-row {
+    margin-top: 20px;
+  }
+  
+  .detail-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .detail-column h3 {
+    color: white;
+  }
+  
+  .detail-column p {
+    padding: 20px 10px;
+  }
+  
+  .detail-column a {
+    padding: 0 10px;
+  }
+  
+  .detail-column button {
+    margin-left: 10px;
+  }
+  
+  .detail-image {
+    height: 120px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: green;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2C4251;
+    color: black;
+  }
+  
+  .detail-img-1 {
+    background-image: url(./images/detail1.jpg);
+  }
+  
+  .detail-img-2 {
+    background-image: url(./images/detail2.jpg);
+  }
+  
+  .detail-img-3 {
+    background-image: url(./images//detail3.jpg);
+  }
+
+.social {
+  max-width: 900px;
+  margin: 0 auto;
+}
