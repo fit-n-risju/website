@@ -2,9 +2,27 @@ body {
     font-family: 'Baloo Tamma 2', cursive;
 }
 
+h1 {
+  font-size: 60px;
+  color: #22223B;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  line-break: auto;
+}
+
 p {
   font-size: 16px;
   font-weight: 300;
+  line-height: 1.2;
 }
 
 button, .button {
@@ -23,6 +41,10 @@ button, .button {
 
 .button {
   padding: 11px 16px 8px 16px;
+}
+
+.formbutton {
+  margin: 5px 0 0 0;
 }
 
 .content {
@@ -96,7 +118,7 @@ button, .button {
   }
   
   .stage h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
     color: #22223B;
     margin-bottom: 10px;
@@ -108,6 +130,17 @@ button, .button {
     color: #22223B;
     width: 45%;
   }
+
+.quote {
+  background-color: #22223B;
+  color: white;
+}
+
+.quote h3 {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 0;
+}
 
   .section-head {
     padding: 14px 20px;
@@ -131,13 +164,44 @@ button, .button {
     padding: 30px 0 0 0;
   }
 
-  .detail-head h2 {
-    padding: 20px 0;
-  }
+
+.detail-stage {
+  height: 400px;
+  display: flex;
+}
+
+.detail-pic {
+  width: 50%;
+  margin: 0 auto;
+  background-image: url(./images/detail-pic.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.detail-content {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 200px 20px 60px;
+}
+
+.detail-selector {
+  display: flex;
+  background-color: #D0B8AC;
+  padding: 70px 0;
+}
+
   
   .detail-column {
     float: left;
     width: 32%;
+    text-align: center;
   }
   
   .detail-column a {
@@ -150,24 +214,34 @@ button, .button {
     margin-left: 2%;
   }
   
-  .detail-row {
-    margin-top: 20px;
-  }
-  
   .detail-row:after {
     content: "";
     display: table;
     clear: both;
   }
   
+.select-icon {
+  max-width: 20%;
+  margin: 0 auto;
+  display: block;
+}
+
   .detail-column h3 {
     color: white;
   }
   
   .detail-column p {
     padding: 20px 10px;
+    text-align: center;
+    color: #22223b;
   }
   
+.detail-column h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
   .detail-column a {
     padding: 0 10px;
   }
@@ -207,4 +281,123 @@ button, .button {
 .social {
   max-width: 900px;
   margin: 0 auto;
+}
+
+form {
+  margin: 10px 0 50px 0;
+}
+
+form label {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  display: block;
+  max-width: 400px;
+  width: 100%;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #4A4A4A;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.footer {
+  background-color: #22223B;
+  text-align: center;
+  color: white;
+  height: 100px;
+  padding: 5px;
+}
+
+.footer a {
+  font-size: 12px;
+  background-color: #22223B;
+}
+
+.icon-row {
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.icon-column {
+  flex: 33.33%;
+  padding: 15px;
+}
+
+.insta-button {
+  margin-bottom: 40px;
+}
+
+.video-stage {
+    background-color: rgba(255,255,255,0.5);
+    color:white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 80px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.video-text {
+  padding: 0 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.video-text p {
+  color: #22223B;
+  font-size: 20px;
+  width: 45%;
+}
+
+.vidContainer {
+  top: 0; 
+  width: 100%; 
+  height: 500px; 
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.vid {
+  width:100%; 
+}
+
+button.select-button {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #22223b;
+}
+
+.contact-stage {
+  display: flex;
+  background-color: #D0B8AC;
+  padding: 20px 0;
+}
+
+.icon-column img {
+  width: 25px;
+  padding: 0 5px;
+}
+
+.footer a {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
 }
