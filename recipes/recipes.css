@@ -1,0 +1,18 @@
+.recipe-stage {
+    padding: 80px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(../images/recipe-header.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    height: 150px;
+    color: white;
+    }
+
+.recipe-stage p {
+    color: #22223B;
+}

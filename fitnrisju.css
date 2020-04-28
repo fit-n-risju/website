@@ -136,10 +136,26 @@ button, .button {
   color: white;
 }
 
+.quote-beige {
+  background-color: #D0B8AC;
+  color: #22223B;
+  text-align: center;
+}
+
 .quote h3 {
   max-width: 700px;
   margin: auto;
   padding: 40px 0;
+}
+
+.quote-beige h3 {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 0 20px 0;
+}
+
+.quote-beige a {
+  margin-bottom: 40px;
 }
 
   .section-head {
@@ -188,7 +204,7 @@ button, .button {
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  padding: 20px 200px 20px 60px;
+  padding: 20px 200px 20px 100px;
 }
 
 .detail-selector {
@@ -241,10 +257,6 @@ button, .button {
   text-align: center;
   padding-top: 15px;
 }
-
-  .detail-column a {
-    padding: 0 10px;
-  }
   
   .detail-column button {
     margin-left: 10px;
@@ -378,7 +390,7 @@ input, textarea {
   width:100%; 
 }
 
-button.select-button {
+.button.select-button {
   background-color: #ffffff;
   border: 1px solid #ffffff;
   color: #22223b;
@@ -400,4 +412,15 @@ button.select-button {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
+}
+
+.placeholder {
+  height: 200px;
+  background-color: white;
+}
+
+@media screen and (min-width: 1800px) {
+  .detail-content {
+    padding: 20px 400px 20px 100px;
+  }
 }
